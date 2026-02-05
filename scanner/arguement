@@ -1,0 +1,23 @@
+package PS;
+
+public class arguement {
+
+	public static void main(String[] args) {
+		
+		int a=10,b=20;
+		value(a, b);
+		System.out.println(value(a,b));
+		
+	}
+	public static int add(int a,int b) {
+		
+		return a+b;
+	}
+	
+	public static int value(int x, int y) {
+		int result =add(x,y);
+		
+		return result;			
+}
+	}
+
