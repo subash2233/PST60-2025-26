@@ -1,0 +1,11 @@
+package PS;
+import java.util.Scanner;
+public class int_to_string {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the integer:");
+        int A = sc.nextInt();
+        String B=String.valueOf(A);        
+        System.out.print("converted string is :"+B);
+    }
+    }
